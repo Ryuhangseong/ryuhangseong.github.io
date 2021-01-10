@@ -10,11 +10,11 @@ url: "https://user.qzone.qq.com/1348992557"  # 此处填写你的博客地址
 owner: 
   name: "Ryuhangseong" # 填写作者信息：名字
   email: 1344992557@qq.com # 填写作者信息：邮箱
-  bio: "一个普通的程序猿" # 填写作者信息：博客描述
+  bio: "一个普通的学生" # 填写作者信息：博客描述
 
 # Data
-gavatar: img/favicon.png # 浏览器地址栏小图标，可自定义更改
-favicon: img/favicon.png # 浏览器地址栏小图标，可自定义更改
+gavatar: img/safety-certificate.png # 浏览器地址栏小图标，可自定义更改
+favicon: img/safety-certificate.png # 浏览器地址栏小图标，可自定义更改
 
 douban_username:  # 你的豆瓣id
 twitter_username: 
@@ -43,7 +43,7 @@ defaults:
       type: "posts"
     values:
       layout: "post"
-      author: "你的名字" # 你的名字
+      author: "Ryu" # 你的名字
       header-img: "img/green.jpg" # We don't want posts without a header image, that whould mean white on white
 
 # Comments 
