@@ -1,13 +1,13 @@
 ---
 layout: post
-title: 标题
-date: 2021-2-05
+title: Java开发环境配置
+date: 2021-7-15
 categories: blog
-tags: [标签一,标签二]
+tags: [安装,java]
 description: 文章金句。
 ---
-
-内容
+Java开发环境配置
+================
 
 
 
