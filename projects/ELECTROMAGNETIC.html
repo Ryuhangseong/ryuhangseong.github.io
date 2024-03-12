@@ -2,17 +2,11 @@
 <html lang="en">
 
 <head>
-  <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
   <title>PROJECTS</title>
-  <!-- web fonts -->
-  <!-- <link href="http://fonts.googleapis.com/css?family=Nunito:400,600,700,800,900&display=swap" rel="stylesheet"> -->
-  <!-- <link href="http://fonts.googleapis.com/css?family=Hind&display=swap" rel="stylesheet"> -->
-  <!-- //web fonts -->
-  <!-- Template CSS -->
-  <link rel="stylesheet" href="assets/css/style-starter.css">
+  <link rel="stylesheet" href="/assets/css/style-starter.css">
 </head>
 
 <body style="background: #000000">
@@ -36,10 +30,24 @@
               <a class="nav-link" href="index.html">HOME</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="projects.html">PROJECTS</a>
+              <div class="navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav ml-auto">
+                  <li class="nav-item dropdown">
+                    <a class="nav-link"
+                      style=" cursor: pointer; text-decoration: underline;text-underline-offset: 16px;"
+                      id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true">
+                      PROJECTS
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="projects.html" style="color: #FFFFFF;">ELECTROMAGNETIC</a></li>
+                      <li><a class="dropdown-item" href="projects.html" style="color: #FFFFFF;">ELECTROMAGNETIC</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="about.html">ABOUT</a>
+              <a class="nav-link" href="/about.html">ABOUT</a>
             </li>
           </ul>
 
@@ -47,21 +55,22 @@
       </div>
     </nav>
   </section>
+
   <section class="w3l-about-breadcrum">
     <div class="breadcrum-bg">
       <!-- Blank -->
     </div>
   </section>
-  <!-- w3l-content-photo-5 -->
+
   <div class="w3l-content-photo-5 py-5" id="projects">
     <div class="content-main pt-lg-5 pt-md-3 pb-0">
       <div class="container">
         <div class="row">
           <div class="col-lg-7 content-photo">
-            <!-- <a href="#"><img src="assets/images/22.jpg" class="img-fluid" alt="content-photo"></a> -->
+
           </div>
           <div class="col-lg-5 content-left mt-lg-0 mt-5 pl-lg-5">
-            <!-- <img src="/assets/images/TD2Logo.png" style="width: 443px; height: 106px" alt="The Division 2" /> -->
+
             <h3 style="color: #FFFFFF;">CODENAME: ELECTROMAGNETIC</h3>
             <p class="mb-0" style="color: #FFFFFF;">
               该关卡旨在创造令人兴奋的游戏体验，考验玩家的战略规划和团队合作能力。玩家将在15分钟内面临多重挑战分钟。只有凭借智慧和勇气，他们才能成功完成这场战斗。</p>
@@ -80,8 +89,8 @@
         <div class="container">
           <div class="grid grid-column-2 ">
             <div class="column1">
-              <img src="assets/images/backstreet.jpg" alt="Backstreet" style="max-height: 100%;" />
-              <img src="assets/images/yard_clear.jpg" alt="Yard" style="max-width: 100%;" />
+              <img src="/assets/images/backstreet.jpg" alt="Backstreet" style="max-height: 100%;" />
+              <img src="/assets/images/yard_clear.jpg" alt="Yard" style="max-width: 100%;" />
             </div>
             <div class="column2">
               <h3 style="color: #FFFFFF;">PRE-PRODUCTION</h3><br />
@@ -110,6 +119,7 @@
       <div class="form-12-content">
         <div class="container">
           <div class="grid grid-column-2 ">
+
             <div class="column1">
               <div class="experience-top">
                 <h5>Phase 1</h5>
@@ -124,24 +134,29 @@
               <div class="experience-top">
                 <h5>Phase 3</h5>
                 <h4>引导Boss到电场</h4>
-                <p class="my-3 text-white">玩家需要吸引Boss的仇恨并带领Boss到电场上，同时控制电闸的玩家触发电闸来过载所有电场的电压，使位于其中的Boss的电流装甲和场地上的电磁发生场失效。</p>
+                <p class="my-3 text-white">玩家需要吸引Boss的仇恨并带领Boss到电场上，同时控制电闸的玩家触发电闸来过载所有电场的电压，使位于其中的Boss的电流装甲和场地上的电磁发生场失效。
+                </p>
               </div>
               <div class="experience-top">
                 <h5>Phase 4</h5>
                 <h4>集中火力</h4>
-                <p class="my-3 text-white">在Boss的电流装甲无效时，玩家需要集中火力对Boss造成伤害。经过一段时间或伤害达到一定程度后，Boss会切换阶段，并且他的电流装甲会恢复到正常状态。</p>
+                <p class="my-3 text-white">在Boss的电流装甲无效时，玩家需要集中火力对Boss造成伤害。经过一段时间或伤害达到一定程度后，Boss会切换阶段，并且他的电流装甲会恢复到正常状态。
+                </p>
               </div>
               <div class="experience-top">
                 <h5>Phase 5</h5>
                 <h4>Boss切换阶段</h4>
-                <p class="my-3 text-white">每次Boss切换阶段后，他会释放一次全场的AOE攻击，玩家需要躲避来减少伤害。此后场上的电磁发生场会恢复运作，且有一座新的榴弹塔被激活。在这之后，Boss将会摧毁一个距离他最近的电场。</p>
+                <p class="my-3 text-white">
+                  每次Boss切换阶段后，他会释放一次全场的AOE攻击，玩家需要躲避来减少伤害。此后场上的电磁发生场会恢复运作，且有一座新的榴弹塔被激活。在这之后，Boss将会摧毁一个距离他最近的电场。</p>
               </div>
               <div class="experience-top">
                 <h5>Phase 6</h5>
                 <h4>关卡胜利</h4>
-                <p class="my-3 text-white">重复以上循环四次后Boss的电流装甲会彻底损坏，此时可以击杀Boss。击杀Boss后，玩家需要捡起Boss掉落的权限卡，前往大门使用权限卡以离开庭院，取得关卡胜利。</p>
+                <p class="my-3 text-white">
+                  重复以上循环四次后Boss的电流装甲会彻底损坏，此时可以击杀Boss。击杀Boss后，玩家需要捡起Boss掉落的权限卡，前往大门使用权限卡以离开庭院，取得关卡胜利。</p>
               </div>
             </div>
+
             <div class="column2">
               <div class="experience-top">
                 <img src="/assets/images/Top.jpg" alt="Top" style="max-width: 100%;" />
@@ -152,11 +167,13 @@
                 <h4 class="text-center"><br />核心区域</h4>
               </div>
             </div>
+
           </div>
         </div>
       </div>
     </section>
   </div>
+
   <!-- //specifications -->
   <div class="w3l-content-photo-5 py-5">
     <div class="footer-29 text-center">
@@ -166,47 +183,31 @@
       <div class="form-12-content">
         <div class="container">
           <div class="grid grid-column-2 ">
+
             <div class="column1">
-              <!-- <div class="experience-top">
-                <h5>2010</h5>
-                <h4>Master of Design, University of California</h4>
-                <p class="my-3 text-white">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
-                  doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-                  architecto beatae.</p>
-              </div>
-              <div class="experience-top">
-                <h5>2007</h5>
-                <h4>Bachelor of Arts, Standford University</h4>
-                <p class="my-3 text-white">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
-                  doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-                  architecto beatae.</p>
-              </div>
-              <div class="experience-top">
-                <h5>2004</h5>
-                <h4>Specialize App Design, Harvard University</h4>
-                <p class="my-3 text-white">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
-                  doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-                  architecto beatae.</p>
-              </div> -->
+
             </div>
+
             <div class="column2">
               <div class="experience-top">
 
                 <h4>策略与协调</h4>
                 <p class="my-3 text-white">玩家需要共同努力、准备方案、激活开关并协调对 Boss 的攻击。</p>
               </div>
+
               <div class="experience-top">
 
                 <h4>环境危害</h4>
                 <p class="my-3 text-white">电磁场和榴弹塔对玩家构成持续的威胁，要求他们保持警惕并调整战术。</p>
               </div>
+
               <div class="experience-top">
 
                 <h4>资源管理</h4>
                 <p class="my-3 text-white">玩家必须有效管理自己的生命值、弹药和冷却时间，才能在激烈的战斗中生存下来。</p>
               </div>
-              <div class="experience-top">
 
+              <div class="experience-top">
                 <h4>渐进难度</h4>
                 <p class="my-3 text-white">战斗的每个阶段都会引入新的挑战和机制，让玩家保持参与并要求他们不断调整策略。</p>
               </div>
@@ -219,31 +220,39 @@
   </div>
 
   <div class="w3l-content-photo-5 py-5">
+
     <div class="footer-29 text-center">
       <h1 style="color: #FFFFFF;">MAP RESEARCH</h1><br />
     </div>
+
     <section class="services-12" style="background: #000000">
       <div class="form-12-content">
         <div class="container">
           <div class="grid grid-column-2 ">
 
             <div class="column1">
+
               <div class="experience-top">
                 <h4>通过对经典TPS类游戏地图的研究，我了解了掩体等系统对玩家在玩多人游戏时的体验，例如修改人们接近地图的方式以及对威胁和环境做出反应。</h4>
               </div>
+
               <div class="experience-top">
                 <h4>地图的核心是一个开放的庭院，它充当玩家的前景，几乎 <b style="color: aqua;"> 概述了地图的状态和威胁</b>，让玩家能够做出明智的决定。
                   在核心周围，有一圈不同的环境，充当避难所，为玩家提供庇护，让他们有时间评估局势并采取必要的步骤取得胜利。</h4>
               </div>
+
               <div class="experience-top">
                 <h4><b style="color: aqua;">各种建筑元素的使用有助于传达环境的本质</b>并诱导玩家的行为，改变房间的高度使它们更加亲密和安全，或者塑造视线和覆盖元素以增强游戏中的观感。</h4>
               </div>
+
             </div>
             <div class="column2">
+
               <div class="experience-top">
                 <img src="/assets/images/Height.png" alt="Height" style="max-width: 100%;" />
                 <h4 class="text-center"><br />不同的建筑高度</h4>
               </div>
+
               <div class="experience-top">
                 <img src="/assets/images/OnSBs.png" alt="OnSBs" style="max-width: 100%;" />
                 <h4 class="text-center"><br />在建筑工地上拥有良好的视野</h4>
@@ -251,15 +260,19 @@
 
             </div>
           </div>
+
         </div>
       </div>
     </section>
+
   </div>
 
   <div class="w3l-content-photo-5 py-5">
+
     <div class="footer-29 text-center">
       <h1 style="color: #FFFFFF;">COMBAT SPACE</h1><br />
     </div>
+
     <section class="services-12" style="background: #000000">
       <div class="form-12-content">
         <div class="container">
@@ -269,12 +282,14 @@
               <img src="/assets/images/FromLeftView.png" alt="FLeft" style="max-width: 100%;" />
               <img src="/assets/images/FromTopView.png" alt="FTop" style="max-width: 100%;" />
             </div>
+
             <div class="column2">
               <div class="experience-top">
                 <h4>作战维度</h4>
                 <p class="my-3 text-white">在设计从头到尾的战斗空间时，需要考虑到敌人的表现、目标、场景、背景和机制。
                   我首先规划出正面向量，然后根据空间向量设计掩体方向、掩体交互、敌人/玩家位置、入口和出口。</p>
               </div>
+
               <div class="experience-top">
                 <h4>战斗划分</h4>
                 <p class="my-3 text-white">为了重现更多的战斗空间，我对TPS类游戏中的战斗空间进行了分析，列出了一些空间模块来确定战斗空间，这样我就可以根据不同的向量快速组装战场。
@@ -285,6 +300,7 @@
                   <br /><b style="color: aqua;">广场</b>：致命的场地，但可以有足够的机会，带领Boss的行进方向。
                 </p>
               </div>
+
             </div>
           </div>
         </div>
@@ -350,17 +366,17 @@
   <!-- grids block 5 -->
   <section class="w3l-footer-29-main" id="footer" style="margin: 0; padding: 0;">
     <div class="text-center">
-      <img src="assets/images/Banner_fixed.png" alt="Banner" style="max-width: 100%; max-height: 15%" />
+      <img src="/assets/images/Banner_fixed.png" alt="Banner" style="max-width: 100%; max-height: 15%" />
     </div>
     <!-- move top -->
-  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-  <script src="js/jquery-3.4.1.slim.min.js">
-  </script>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="js/jquery-3.4.1.slim.min.js">
+    </script>
 
-  <script src="js/bootstrap.min.js">
-  </script>
+    <script src="js/bootstrap.min.js">
+    </script>
 
-  <!-- Smooth scrolling -->
+    <!-- Smooth scrolling -->
 
 
 

@@ -7,11 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
   <title>PROJECTS</title>
-  <!-- web fonts -->
-  <!-- <link href="http://fonts.googleapis.com/css?family=Nunito:400,600,700,800,900&display=swap" rel="stylesheet"> -->
-  <!-- <link href="http://fonts.googleapis.com/css?family=Hind&display=swap" rel="stylesheet"> -->
-  <!-- //web fonts -->
-  <!-- Template CSS -->
+
   <link rel="stylesheet" href="assets/css/style-starter.css">
 </head>
 
@@ -36,7 +32,20 @@
               <a class="nav-link" href="index.html">HOME</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="projects.html">PROJECTS</a>
+              <div class="navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav ml-auto">
+                  <li class="nav-item dropdown" >
+                    <a class="nav-link" style=" cursor: pointer; text-decoration: underline;text-underline-offset: 16px;" id="navbarDropdownMenuLink"
+                      data-toggle="dropdown" aria-haspopup="true">
+                      PROJECTS
+                    </a>
+                    <ul class="dropdown-menu" >
+                      <li><a class="dropdown-item" href="projects.html" style="color: #FFFFFF;">ELECTROMAGNETIC</a></li>
+                      <li><a class="dropdown-item" href="projects.html" style="color: #FFFFFF;">ELECTROMAGNETIC</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="about.html">ABOUT</a>
@@ -47,6 +56,7 @@
       </div>
     </nav>
   </section>
+  
   <section class="w3l-about-breadcrum">
     <div class="breadcrum-bg">
       <!-- Blank -->
@@ -124,22 +134,26 @@
               <div class="experience-top">
                 <h5>Phase 3</h5>
                 <h4>引导Boss到电场</h4>
-                <p class="my-3 text-white">玩家需要吸引Boss的仇恨并带领Boss到电场上，同时控制电闸的玩家触发电闸来过载所有电场的电压，使位于其中的Boss的电流装甲和场地上的电磁发生场失效。</p>
+                <p class="my-3 text-white">玩家需要吸引Boss的仇恨并带领Boss到电场上，同时控制电闸的玩家触发电闸来过载所有电场的电压，使位于其中的Boss的电流装甲和场地上的电磁发生场失效。
+                </p>
               </div>
               <div class="experience-top">
                 <h5>Phase 4</h5>
                 <h4>集中火力</h4>
-                <p class="my-3 text-white">在Boss的电流装甲无效时，玩家需要集中火力对Boss造成伤害。经过一段时间或伤害达到一定程度后，Boss会切换阶段，并且他的电流装甲会恢复到正常状态。</p>
+                <p class="my-3 text-white">在Boss的电流装甲无效时，玩家需要集中火力对Boss造成伤害。经过一段时间或伤害达到一定程度后，Boss会切换阶段，并且他的电流装甲会恢复到正常状态。
+                </p>
               </div>
               <div class="experience-top">
                 <h5>Phase 5</h5>
                 <h4>Boss切换阶段</h4>
-                <p class="my-3 text-white">每次Boss切换阶段后，他会释放一次全场的AOE攻击，玩家需要躲避来减少伤害。此后场上的电磁发生场会恢复运作，且有一座新的榴弹塔被激活。在这之后，Boss将会摧毁一个距离他最近的电场。</p>
+                <p class="my-3 text-white">
+                  每次Boss切换阶段后，他会释放一次全场的AOE攻击，玩家需要躲避来减少伤害。此后场上的电磁发生场会恢复运作，且有一座新的榴弹塔被激活。在这之后，Boss将会摧毁一个距离他最近的电场。</p>
               </div>
               <div class="experience-top">
                 <h5>Phase 6</h5>
                 <h4>关卡胜利</h4>
-                <p class="my-3 text-white">重复以上循环四次后Boss的电流装甲会彻底损坏，此时可以击杀Boss。击杀Boss后，玩家需要捡起Boss掉落的权限卡，前往大门使用权限卡以离开庭院，取得关卡胜利。</p>
+                <p class="my-3 text-white">
+                  重复以上循环四次后Boss的电流装甲会彻底损坏，此时可以击杀Boss。击杀Boss后，玩家需要捡起Boss掉落的权限卡，前往大门使用权限卡以离开庭院，取得关卡胜利。</p>
               </div>
             </div>
             <div class="column2">
@@ -353,6 +367,43 @@
       <img src="assets/images/Banner_fixed.png" alt="Banner" style="max-width: 100%; max-height: 15%" />
     </div>
     <!-- move top -->
+    <button onclick="topFunction()" id="movetop" title="Go to top">
+      <span class="fa fa-angle-up"></span>
+    </button>
+    <script>
+      // When the user scrolls down 20px from the top of the document, show the button
+      window.onscroll = function () {
+        scrollFunction()
+      };
+
+      function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+          document.getElementById("movetop").style.display = "block";
+        } else {
+          document.getElementById("movetop").style.display = "none";
+        }
+      }
+
+      // When the user clicks on the button, scroll to the top of the document
+      function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+      }
+    </script>
+    <!-- /move top -->
+  </section>
+  <!-- // grids block 5 -->
+  <script src="assets/js/jquery-3.3.1.min.js"></script>
+  <!-- //footer-28 block -->
+  </section>
+
+  <script>
+    $(function () {
+      $('.navbar-toggler').click(function () {
+        $('body').toggleClass('noscroll');
+      })
+    });
+  </script>
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
   <script src="js/jquery-3.4.1.slim.min.js">
   </script>

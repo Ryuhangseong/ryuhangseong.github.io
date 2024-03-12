@@ -6537,7 +6537,7 @@ input[type="button"].btn-block {
   color: #212529;
   text-align: left;
   list-style: none;
-  background-color: #fff;
+  background-color: #000000; /* 下拉框颜色 */
   background-clip: padding-box;
   border: 1px solid rgba(0, 0, 0, 0.15);
   border-radius: 0.25rem;
@@ -14294,10 +14294,10 @@ h4.sub-title {
 }
 
 .w3l-bootstrap-header .navbar-expand-lg .navbar-nav .dropdown-menu {
-  transform: translateX(-50px);
-}
+  transform: translateX(-25px);
+} /* 下拉框位置 */
 
-.w3l-bootstrap-header .navbar-expand-lg .navbar-nav .dropdown-menu:before {
+/* .w3l-bootstrap-header .navbar-expand-lg .navbar-nav .dropdown-menu:before {
   content: '';
   width: 10px;
   height: 10px;
@@ -14311,7 +14311,7 @@ h4.sub-title {
   top: -6px;
   left: 49%;
   z-index: 1001;
-}
+} */  /* 下拉框箭头颜色 */
 
 .w3l-bootstrap-header .dropdown-toggle::after {
   margin-left: 0.1em;
@@ -17557,5 +17557,22 @@ body:after {
     padding-top: 60px;
   }
 }
+.navbar-nav li:hover > ul.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu > .dropdown-menu {
+  top:0;
+  /* left:-100%;
+  left:-10rem; */
+  margin-top:-6px;
+}
 
+/* rotate caret on hover */
+.dropdown-menu > li > a:hover:after {
+  text-decoration: underline;
+  transform: rotate(-90deg);
+} 
 /*# sourceMappingURL=style-starter.css.map */
