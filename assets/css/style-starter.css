@@ -14290,9 +14290,9 @@ h4.sub-title {
   }
 }
 
-.w3l-bootstrap-header .navbar-expand-lg .navbar-nav .dropdown-menu {
+/* .w3l-bootstrap-header .navbar-expand-lg .navbar-nav .dropdown-menu {
   transform: translateX(-25px);
-} /* 下拉框位置 */
+} 下拉框位置 */
 
 /* .w3l-bootstrap-header .navbar-expand-lg .navbar-nav .dropdown-menu:before {
   content: '';
