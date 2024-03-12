@@ -7,39 +7,49 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
   <title>Home</title>
-  <!-- web fonts -->
-  <link href="http://fonts.googleapis.com/css?family=Nunito:400,600,700,800,900&display=swap" rel="stylesheet">
-  <link href="http://fonts.googleapis.com/css?family=Hind&display=swap" rel="stylesheet">
-  <!-- //web fonts -->
-  <!-- Template CSS -->
+  <link rel="shortcut icon" href="/assets/images/favicon.ico" type="image/x-icon" />
   <link rel="stylesheet" href="assets/css/style-starter.css">
 </head>
 
 <body>
 
   <section class="w3l-bootstrap-header">
-    <nav class="navbar navbar-expand-lg navbar-light py-lg-3 py-2" style="position: fixed; top: 0; ">
+    <nav class="navbar navbar-expand-lg navbar-light py-lg-3 py-2" style="position: fixed; top: 0; background: #000000">
       <div class="container">
-        <a class="navbar-brand" href="index.html">Hangcheng Liu</a>
-        <!-- if logo is image enable this   
-    <a class="navbar-brand" href="#index.html">
-        <img src="image-path" alt="Your logo" title="Your logo" style="height:35px;" />
-    </a> -->
+        <a class="navbar-brand" href="index.html">HANGCHENG LIU</a>
+
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
           aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon fa fa-bars"></span>
         </button>
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav ml-auto">
+          <ul class="navbar-nav ml-auto" style="font-size: 17.6px;">
             <li class="nav-item">
-              <a class="nav-link" href="index.html">Home</a>
+              <a class="nav-link" 
+              style="cursor: pointer; text-decoration: underline;text-underline-offset: 16px;"
+              >HOME</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="projects.html">Projects</a>
+              <div class="navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav ml-auto">
+                  <li class="nav-item dropdown">
+                    <a class="nav-link" style="cursor: pointer;" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                      aria-haspopup="true">
+                      PROJECTS
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="/projects/ELECTROMAGNETIC.html"
+                          style="color: #FFFFFF;">ELECTROMAGNETIC</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="about.html">About</a>
+              <a class="nav-link"
+                style=" cursor: pointer;"
+                href="/about.html">ABOUT</a>
             </li>
           </ul>
 
@@ -47,6 +57,7 @@
       </div>
     </nav>
   </section>
+
   <!--  Main banner section -->
   <section class="w3l-main-banner" id="home">
     <div class="companies20-content">
@@ -570,7 +581,7 @@
   <!-- grids block 5 -->
   <section class="w3l-footer-29-main" id="footer" style="margin: 0; padding: 0;">
     <div class="text-center">
-      <img src="assets/images/Banner_fixed.png" alt="Banner" style="max-width: 100%; max-height: 15%"/>
+      <img src="assets/images/Banner_fixed.png" alt="Banner" style="max-width: 100%; max-height: 15%" />
     </div>
     <!-- move top -->
     <button onclick="topFunction()" id="movetop" title="Go to top">
